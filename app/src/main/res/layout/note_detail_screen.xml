@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dev.cameronc.securenotes.ui.note.detail.NoteDetailScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                                                              xmlns:tools="http://schemas.android.com/tools"
+                                                              android:layout_width="match_parent"
+                                                              android:layout_height="match_parent"
+                                                              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/note_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:hint="Note Title"
+        tools:text="My note title"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/note_detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:gravity="top"
+        android:hint="Content"
+        tools:text="@tools:sample/lorem/random"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/note_detail_bullet_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</com.dev.cameronc.securenotes.ui.note.detail.NoteDetailScreen>
